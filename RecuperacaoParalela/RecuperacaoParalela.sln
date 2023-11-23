@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecuperacaoParalela", "RecuperacaoParalela\RecuperacaoParalela.csproj", "{43F35A6A-4CF1-4066-91B9-C434508811CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{579B28E4-0833-4B9E-A629-3E684F413A05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43F35A6A-4CF1-4066-91B9-C434508811CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43F35A6A-4CF1-4066-91B9-C434508811CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43F35A6A-4CF1-4066-91B9-C434508811CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43F35A6A-4CF1-4066-91B9-C434508811CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{43F35A6A-4CF1-4066-91B9-C434508811CE} = {579B28E4-0833-4B9E-A629-3E684F413A05}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24BA3EA4-28E2-4C52-B33B-C84A9B0C3E5B}
+	EndGlobalSection
+EndGlobal

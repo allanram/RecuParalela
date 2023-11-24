@@ -44,7 +44,7 @@ namespace RecuperacaoParalela.View
                         cmd.Parameters.AddWithValue("@Telefone", txtTelefone.Text);
                         cmd.Parameters.AddWithValue("@Email", txtEmail.Text);
                         cmd.Parameters.AddWithValue("@Endereco", txtEndereco.Text);
-                        cmd.Parameters.AddWithValue("@DataNascimento", dtpnascimento.Text);
+                        cmd.Parameters.AddWithValue("@DataNascimento",   dtpnascimento.Text);
 
                         // Executar a consulta e obter o ID do novo contato
                         int novoContatoID = Convert.ToInt32(cmd.ExecuteScalar());
